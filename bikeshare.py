@@ -43,7 +43,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     i=0
     while i==0:
-        day=input('Which day would you like to filter by, type all to apply no day filter?\n')
+        day=input('Which day would you like to filter by,like monday, tuesday.. sunday. Type all to apply no day filter?\n')
         if(day.lower() in day_list):
             i=1
         else:
