@@ -4,7 +4,7 @@
 1st January 2023
 
 ### Project Title
-Bikeshare data analysis
+Bikeshare data analysis for the Udacity Data Science with Python nanodegree course
 
 ### Description
 Describe what your project is about and what it does
