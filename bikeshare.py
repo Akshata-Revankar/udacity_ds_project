@@ -23,7 +23,7 @@ def get_filters():
     day_list = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']
 
     while i==0:
-        city=input('Which city would you like to explore Chicago, New York City, Washington?\n')
+        city=input('Which city would you like to explore Chicago, New York City, Washington?\nUsing any other city name will loop you back to ths question again')
         if(city.lower() in city_list):
             i=1
         else:
